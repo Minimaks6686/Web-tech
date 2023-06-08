@@ -1,0 +1,93 @@
+.NavBar{
+    height: 102px;
+    background-color: #02001F;
+    z-index: 2;
+
+    
+}
+
+.in-container{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+
+.Disciplines{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-right: -30%;
+    margin-left: 9%;
+}
+
+
+@media screen and (min-width: 800px) {
+    .in-navbar{
+        width: 85%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        gap:45%;
+        align-items: center;
+    }
+    .icon-menu{
+        display: none;
+    }
+    .in-menu{
+        display: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .in-navbar{
+        display: none;
+    }
+    .in-menu{
+        display: none;
+        z-index: 2;
+        position: absolute;
+        flex-direction: column;
+        row-gap: 1rem;
+        background-color: #02001F;
+        right: 0;
+        top: 102px;
+        width: calc(100vw - 60%);
+        height: calc(100vh - 102px);
+    }
+    .icon-menu{
+        display: flex;
+        align-self: center;
+    }
+
+    .NavBarButton{
+        width: 100%
+    }
+    .NavBarButton:hover{
+        width: 100%;
+        border-bottom-width: 0;
+        border-left-width: 0.5rem;
+        padding-left: 0.4rem;
+        padding-top: 0;
+    }
+
+    .in-menu.show{
+        display: flex;
+    }
+
+    .icon-menu:hover,
+    .icon-menu:focus{
+        color: #7e73db;
+    }
+
+    .Disciplines{
+        flex-direction: column;
+        margin-left: 0;
+    }
+    .User{
+        margin-top: 1rem
+    }
+}

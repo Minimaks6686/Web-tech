@@ -1,0 +1,42 @@
+.LogoButton{
+    height: 90px;
+    width: 180px;
+    border: none;
+    cursor: pointer;
+    background-image: url(../Icon/Logo.svg);
+    background-repeat: no-repeat;
+
+    margin-top: 6px;
+
+    background-color: #02001F;
+}
+
+.UserButton{
+    border-radius:50%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    cursor: pointer;
+    background-image: url(../Icon/User.svg);
+    background-repeat: no-repeat;
+    background-color: #02001F;
+}
+
+.NavBarButton{
+    height: 102px;
+    width:33%;
+    border-width: 0;
+    cursor: pointer;
+    background-color: #02001F;
+    color: #a39fd6;
+    font-size: 1.3rem;
+    padding: 0 1rem 0 1rem;
+    font-size: 30px;
+}
+
+.NavBarButton:hover{
+    border-bottom-width: 0.4rem;
+    border-color: #622a97; 
+    color: #5b588f;
+    padding-top: 0.4rem;
+}
