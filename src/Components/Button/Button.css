@@ -24,7 +24,7 @@
 
 .NavBarButton{
     height: 102px;
-    width:33%;
+    width: 180px;
     border-width: 0;
     cursor: pointer;
     background-color: #02001F;
@@ -39,4 +39,40 @@
     border-color: #622a97; 
     color: #5b588f;
     padding-top: 0.4rem;
+}
+
+
+.UserMenuButton{
+    color: #ffffff;
+    font-size:1.4rem;
+    padding: 10px;
+    background: #622a97;
+    border-width: 0;
+}
+
+.UserMenuButton:hover{
+    color: #5b588f;
+    background: #02001F;
+}
+
+.AddToCurse{
+    color: #ffffff;
+    font-size:1.4rem;
+    padding: 10px;
+    background: #622a97;
+    border-width: 0;
+}
+
+.AddToCurse:hover{
+    color: #5b588f;
+    background: #02001F;
+}
+
+.exitButton{
+    display: flex;
+    width: 1.5vw;
+    height: 3vh;
+    font-size: 1vw;
+    justify-content: center;
+    align-items: center;
 }

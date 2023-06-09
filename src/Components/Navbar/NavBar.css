@@ -91,3 +91,30 @@
         margin-top: 1rem
     }
 }
+
+
+.user-menu{
+    display: none;
+}
+
+.user-in-menu{
+    display: none;
+}
+
+.user-menu.show{
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    margin-left: -50px;
+    z-index: 5;
+    top: 102px;
+}
+
+.user-in-menu.show{
+    display: flex;
+    position: absolute;
+    width: fit-content;
+    right: 100%;
+    z-index: 5;
+    top: 0px;
+}

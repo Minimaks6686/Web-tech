@@ -1,0 +1,24 @@
+.grid{
+    display: grid;
+    row-gap: 1rem;
+    grid-template-columns: repeat(4, 25%);
+    justify-items: center;
+}
+
+@media (max-width: 1600px) and (min-width: 992px){
+    .grid{
+        grid-template-columns: repeat(3, 33%);
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px){
+    .grid{
+        grid-template-columns: repeat(2, 50%);
+    }
+}
+
+@media (max-width: 768px){
+    .grid{
+        grid-template-columns: repeat(1, 100%);
+    }
+}
